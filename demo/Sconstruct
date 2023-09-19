@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+import os
+import sys
+
+env = Environment()
+env["libs"]    = [os.getcwd()]
+env["headers"] = [os.getcwd()]
+env['ccflags'] = '-std=c++11'
+env['project_dir'] = os.getcwd()
+env['target_dir'] = os.getcwd()
+
+SConscript(['./module/SConscript'], exports=['env'])
+SConscript(['./cmd/SConscript'], exports=['env'])
+print("Sons All Done")

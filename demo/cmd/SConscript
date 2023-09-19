@@ -1,0 +1,20 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+import os
+
+Import('env')
+env = env.Clone()
+
+target_name = "main.out"
+target_dir = env["target_dir"]
+target = os.path.join(target_dir, target_name)
+target_sources = ['main.cpp']
+
+NoClean(env.Program(
+    LIBS = ['sort'],
+    target = target,
+    source = target_sources,
+    LIBPATH = ['$project_dir/module'],
+    CPPPATH = env['headers'],
+    CCFLAGS = env['ccflags']
+))
