@@ -1,0 +1,3 @@
+[submodule "fuzz/3rdparty/RapidFuzz"]
+	path = fuzz/3rdparty/RapidFuzz
+	url = https://github.com/maxbachmann/rapidfuzz-cpp.git
