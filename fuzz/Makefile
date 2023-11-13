@@ -57,10 +57,10 @@ RM = /home/zhangyafei/.pyenv/versions/3.10.8/lib/python3.10/site-packages/cmake/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/work/github/language/learn-cpp/fuzz
+CMAKE_SOURCE_DIR = /mnt/work/github/lang-cpp/fuzz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/work/github/language/learn-cpp/fuzz
+CMAKE_BINARY_DIR = /mnt/work/github/lang-cpp/fuzz
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/work/github/language/learn-cpp/fuzz/CMakeFiles /mnt/work/github/language/learn-cpp/fuzz//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/work/github/lang-cpp/fuzz/CMakeFiles /mnt/work/github/lang-cpp/fuzz//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/work/github/language/learn-cpp/fuzz/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/work/github/lang-cpp/fuzz/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
