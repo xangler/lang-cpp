@@ -3,5 +3,6 @@
 *.out
 *.dblite
 *.cmake
+bazel-*
 CMakeCache.txt
 CMakeFiles
