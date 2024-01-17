@@ -6,3 +6,4 @@
 bazel-*
 CMakeCache.txt
 CMakeFiles
+demo-cmake/**/Makefile
