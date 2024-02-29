@@ -4,7 +4,7 @@
 *.dblite
 *.cmake
 bazel-*
+cmake-*
 CMakeCache.txt
 CMakeFiles
-demo-cmake/**/Makefile
 fuzz/**/Makefile

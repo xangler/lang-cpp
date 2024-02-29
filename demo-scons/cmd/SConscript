@@ -5,7 +5,7 @@ import os
 Import('env')
 env = env.Clone()
 
-target_name = "main.out"
+target_name = "Demo.out"
 target_dir = env["target_dir"]
 target = os.path.join(target_dir, target_name)
 target_sources = ['main.cpp']

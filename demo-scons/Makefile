@@ -1,8 +1,8 @@
 build:
-	@scons -j2
+	scons -j2
 
 run:
-	./main.out
+	./Demo.out
 
 .PHONY:
 	build run

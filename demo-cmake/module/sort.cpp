@@ -1,4 +1,4 @@
-#include "header/sort.h"
+#include "sort.h"
 using namespace std;
 
 vector<int> Solution::sortArray(vector<int>& nums) {

@@ -6,7 +6,7 @@ import sys
 env = Environment()
 env["libs"]    = [os.getcwd()]
 env["headers"] = [os.getcwd()]
-env['ccflags'] = '-std=c++11'
+env['ccflags'] = '-std=c++11 -g'
 env['project_dir'] = os.getcwd()
 env['target_dir'] = os.getcwd()
 

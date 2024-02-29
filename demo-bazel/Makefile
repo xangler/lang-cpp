@@ -1,8 +1,8 @@
 build:
-	bazel build //cmd:main.out
+	bazel build --copt -g --strip=never --subcommands //cmd:Demo.out
 
 run:
-	./main.out
+	./bazel-bin/cmd/Demo.out
 
 .PHONY:
 	build run

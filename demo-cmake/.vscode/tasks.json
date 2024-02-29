@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "make build",
+            "command": "make",
+            "args": [
+                "build",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
